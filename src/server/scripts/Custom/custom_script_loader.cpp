@@ -20,7 +20,18 @@
 
 // The name of this function should match:
 // void Add${NameOfDirectory}Scripts()
+// Chiamata diretta alla funzione esistente nel file boss_shadow_dragon.cpp
+void AddSC_boss_lerathion();
+
+void AddSC_boss_urent();
+
+void_AddSC_boss_eldricmi();
+
 void AddCustomScripts()
 {
-    // MyExampleScript()
+    AddSC_boss_eldricmi();
+
+    AddSC_boss_lerathion();
+    
+    AddSC_boss_urent();
 }

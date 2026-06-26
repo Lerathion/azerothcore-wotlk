@@ -46,6 +46,8 @@ namespace Movement
         MoveSplineInitArgs(std::size_t path_capacity = 16)
         {
             path.reserve(path_capacity);
+            facing = FacingInfo(); // Inizializza facing
+            walk = false; // Inizializza walk
         }
 
         PointsArray path;
